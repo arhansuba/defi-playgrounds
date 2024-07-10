@@ -1,0 +1,58 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  header::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url('./defi-logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  header nav a:hover {
+    color: #ccc;
+  }
+  
+  header nav a.active {
+    color: #66d9ef;
+  }

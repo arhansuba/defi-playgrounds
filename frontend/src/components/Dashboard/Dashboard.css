@@ -1,0 +1,31 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .chart {
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart h2 {
+    margin-top: 0;
+  }
+  
+  .line-chart, .pie-chart {
+    width: 100%;
+    height: 100%;
+  }
